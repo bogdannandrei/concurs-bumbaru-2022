@@ -1,0 +1,546 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1653027214752051, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027214754248, "dur": 15445, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027214770018, "dur": 86371, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027214856425, "dur": 394461, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027215250889, "dur": 9818697, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027225069629, "dur": 10934, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027250447061, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027250447565, "dur": 18373, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027250465941, "dur": 62759, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027250528702, "dur": 974763, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027251503468, "dur": 2457300, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027253960770, "dur": 7841, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027253969356, "dur": 32, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1653027251232330, "dur": 251812, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653027251233489, "dur": 55175, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653027251460867, "dur": 6614, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653027251467487, "dur": 16638, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653027251468695, "dur": 14534, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653027251490123, "dur": 1633, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653027251489002, "dur": 2804, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027253969490, "dur": 343, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1653027251582397, "dur":2253, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027251584660, "dur":49, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1653027251584721, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1653027251584740, "dur":468, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1653027251585244, "dur":851, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027251586095, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253933662, "dur":282, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253933944, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253933968, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253933977, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253933990, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253933992, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934008, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934011, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934020, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934022, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934029, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934031, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934038, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934040, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934061, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934063, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934070, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934106, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253934110, "dur":2215, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1653027251586164, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027251586164, "dur":3672, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027251589858, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1653027251589866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027251591705, "dur":527, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1653027251592240, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1653027251592287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027251592931, "dur":11493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1653027251604428, "dur":67762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1653027251672196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027251672207, "dur":90612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1653027251762848, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1653027251762951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027251762963, "dur":518933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1653027252281939, "dur":180487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252462434, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252462446, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252465881, "dur":48032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252513965, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252513980, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252516392, "dur":27908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252544308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252544320, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252546044, "dur":33326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252579380, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252579396, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252581520, "dur":33314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252614841, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252614851, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252616316, "dur":35945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252652274, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252652290, "dur":11076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252663400, "dur":137582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252800992, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252801007, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252803276, "dur":29683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252832966, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252832978, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252834439, "dur":47228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252881674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252881683, "dur":12388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252894095, "dur":40783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252934883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252934890, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252936407, "dur":2850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252939264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252939274, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252941654, "dur":33498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252975162, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027252975175, "dur":5456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027252980658, "dur":426883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027253407549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027253407560, "dur":7236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027253414824, "dur":349819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027253764651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653027253764662, "dur":168915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653027253933609, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1653027253933613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027251586228, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027251586229, "dur":3620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027251589857, "dur":62854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1653027251652717, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027251653212, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1653027251655674, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1653027251655742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027251656536, "dur":106418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1653027251762979, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1653027251763022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027251763028, "dur":22929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1653027251785984, "dur":241704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1653027252027696, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252027706, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1653027252031782, "dur":62336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252094125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252094133, "dur":6705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252100869, "dur":104617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252205492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252205501, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252206778, "dur":193431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252400216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252400227, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252402742, "dur":233836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252636621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252636632, "dur":5064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252641730, "dur":36638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252678415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252678427, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252682220, "dur":50302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252732528, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252732539, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252734055, "dur":31037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252765099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252765109, "dur":2429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252767571, "dur":49999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252817577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252817586, "dur":5259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252822871, "dur":57176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252880054, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252880065, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252881792, "dur":52982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252934795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252934805, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252937001, "dur":33164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252970172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027252970183, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027252971746, "dur":147826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027253119580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027253119590, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027253121300, "dur":41825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027253163132, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027253163142, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027253165904, "dur":244720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027253410633, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027253410648, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027253413263, "dur":60137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027253473407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027253473417, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653027253474986, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1653027253475011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027253475018, "dur":6378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1653027253481423, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1653027253481446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027253481454, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1653027253483193, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1653027253483213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027253483218, "dur":27228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1653027253510470, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1653027253510494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027253510501, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1653027253512829, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1653027253512912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653027253512922, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1653027253515188, "dur":418454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653027251586231, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653027251586231, "dur":3691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653027251589923, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1653027251589976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653027251593854, "dur":58458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1653027251652331, "dur":108356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1653027251760693, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653027251760704, "dur":5948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1653027251766708, "dur":1249705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653027253016423, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653027253016435, "dur":30101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653027253046559, "dur":120017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653027253166582, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653027253166593, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653027253169065, "dur":375400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653027253544472, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653027253544483, "dur":3796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653027253548302, "dur":385344, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027251586257, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027251586257, "dur":3617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027251589878, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1653027251590289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027251593469, "dur":338326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1653027251931822, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1653027251931899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027251932229, "dur":199720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1653027252131978, "dur":244442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252376429, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027252376442, "dur":15935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252392769, "dur":81043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252473821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027252473831, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252475617, "dur":60712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252536339, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027252536352, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252538673, "dur":49574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252588254, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027252588264, "dur":5064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252593353, "dur":76762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252670143, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027252670155, "dur":5176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252675357, "dur":57544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252732906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027252732914, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252734927, "dur":164954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252899888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027252899898, "dur":4163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252904091, "dur":62184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252966284, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027252966299, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252968713, "dur":29974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027252998694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027252998704, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027253001490, "dur":148387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027253149883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027253149893, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027253152360, "dur":48929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027253201297, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027253201310, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027253203338, "dur":323980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027253527324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653027253527333, "dur":3668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653027253531028, "dur":402610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027251586301, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027251586302, "dur":3568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027251589872, "dur":62051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1653027251651929, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027251651941, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1653027251653290, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1653027251653337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027251653346, "dur":322426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1653027251975814, "dur":34284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252010108, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252011894, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252014115, "dur":62128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252076253, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252076333, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252078674, "dur":62632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252141312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252141322, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252143571, "dur":49646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252193225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252193238, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252195331, "dur":63436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252258776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252258858, "dur":9598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252268480, "dur":138114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252406602, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252406614, "dur":14025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252420662, "dur":64114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252484793, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252484811, "dur":8429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252493267, "dur":53945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252547223, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252547239, "dur":6119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252553393, "dur":49283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252602684, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252602702, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252604585, "dur":53175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252657766, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252657776, "dur":9637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252667475, "dur":53304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252721039, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252721052, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252722895, "dur":48478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252771380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252771391, "dur":6053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252777507, "dur":36407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252813925, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027252813941, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027252816611, "dur":211795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027253028413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253028424, "dur":7251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027253035714, "dur":260723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027253296445, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253296457, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027253299488, "dur":168091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027253467585, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253467596, "dur":3877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653027253471497, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1653027253471890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253472364, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1653027253474139, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1653027253474201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253474251, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1653027253476552, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653027253476596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253476605, "dur":4797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653027253481426, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653027253481450, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253481455, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653027253482938, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653027253482985, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253482990, "dur":4286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653027253487316, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1653027253487342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253487351, "dur":5025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1653027253492417, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653027253492446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253492455, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653027253495712, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1653027253496371, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253496392, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1653027253498816, "dur":2356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1653027253501179, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253501189, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1653027253503324, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653027253503360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253503371, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653027253505993, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1653027253506032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253506045, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1653027253508515, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1653027253508538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253508548, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1653027253510896, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1653027253510931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253510939, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1653027253513310, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1653027253513566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653027253513573, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1653027253515451, "dur":418188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027251586336, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027251586336, "dur":3528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027251589868, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1653027251590346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027251600318, "dur":55510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1653027251655891, "dur":54139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1653027251710036, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027251710048, "dur":54949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1653027251765022, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1653027251765117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027251765125, "dur":159446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1653027251924589, "dur":43624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game.exe" }}
+,{ "pid":12345, "tid":6, "ts":1653027251968220, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027251968229, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game.exe" }}
+,{ "pid":12345, "tid":6, "ts":1653027251970930, "dur":164200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252135137, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027252135148, "dur":6137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252141314, "dur":69760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252211083, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027252211097, "dur":3716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252214904, "dur":65699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252282357, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027252282391, "dur":4280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252286711, "dur":296187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252582907, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027252582926, "dur":3712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252586685, "dur":96341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252683035, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027252683048, "dur":6189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252689267, "dur":109380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252798654, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027252798668, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252802055, "dur":55542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252857604, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027252857616, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027252860509, "dur":372383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027253232898, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027253232909, "dur":3462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027253236412, "dur":222296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027253458714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027253458725, "dur":2907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027253461657, "dur":59058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027253520721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653027253520731, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653027253522945, "dur":410713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027251586378, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027251586378, "dur":3481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027251589861, "dur":33208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1653027251623074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027251623083, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1653027251624234, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1653027251624271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027251624287, "dur":32191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1653027251656501, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1653027251656540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027251656562, "dur":108600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1653027251765184, "dur":283127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252048320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252048387, "dur":3081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252051499, "dur":71509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252123043, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252123054, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252125066, "dur":67251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252192325, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252192338, "dur":10323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252202700, "dur":132650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252335360, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252335372, "dur":3234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252339157, "dur":73747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252412914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252412924, "dur":13559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252426516, "dur":45794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252472317, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252472328, "dur":6998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252479356, "dur":40849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252520212, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252520226, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252521854, "dur":55704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252577802, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252577814, "dur":3623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252581472, "dur":73384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252654863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252654874, "dur":13737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252668647, "dur":39797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252708454, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252708469, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252710793, "dur":48745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252759546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252759558, "dur":4418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252764033, "dur":39276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252803313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252803324, "dur":3115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252806466, "dur":72116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252878591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252878602, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252881263, "dur":2429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252883699, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252883728, "dur":2612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252886365, "dur":2511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252888884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252888894, "dur":5815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252894729, "dur":36160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252930897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252930907, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252932455, "dur":27636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252960098, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027252960109, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027252962353, "dur":41863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027253004224, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027253004237, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027253006221, "dur":227569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027253233797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027253233808, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027253235558, "dur":48577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027253284141, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027253284151, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027253286405, "dur":161150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027253447564, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027253447580, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027253449749, "dur":243475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027253693254, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653027253693264, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653027253694622, "dur":239018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027251586402, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027251586403, "dur":3450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027251589858, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1653027251589963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027251593764, "dur":65169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1653027251658961, "dur":101749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1653027251760715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027251760723, "dur":4507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1653027251765262, "dur":277354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252042623, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252043108, "dur":12081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252055215, "dur":75121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252130343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252130353, "dur":3128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252133515, "dur":56278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252189801, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252189815, "dur":3982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252193841, "dur":60506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252254355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252254365, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252256196, "dur":106053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252362256, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252362268, "dur":4212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252366553, "dur":85881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252452444, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252452459, "dur":3223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252455715, "dur":97680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252553401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252553585, "dur":3141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252556762, "dur":90146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252646915, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252646927, "dur":13655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252660613, "dur":60579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252721211, "dur":454, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252721675, "dur":3308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252725015, "dur":51138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252776161, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252776172, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252778331, "dur":76288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252854628, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252854639, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252856184, "dur":125326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252981517, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027252981529, "dur":3168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027252984738, "dur":72083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027253056828, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027253056847, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027253058654, "dur":87854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027253146517, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027253146531, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027253148892, "dur":136176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027253285077, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027253285096, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027253287813, "dur":192731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027253480553, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027253480565, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653027253482759, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1653027253482795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027253482802, "dur":18916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1653027253501754, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1653027253501785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027253501797, "dur":5737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1653027253507568, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1653027253507600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027253507614, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1653027253509652, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1653027253509674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027253509682, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1653027253512946, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1653027253512983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653027253512989, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Proiect final Bumbaru 40FOR/Tower Defense Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1653027253515198, "dur":418462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653027253940005, "dur":3215, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1653027253969888, "dur": 1020, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653027253969338, "dur": 1606, "ph": "X", "name": "Write chrome-trace events", "args": {} },
